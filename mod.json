@@ -1,0 +1,25 @@
+{
+    "geode": "4.0.0",
+    "version": "1.0.0",
+    "id": "alan.veyron-studio",
+    "name": "Veyron Studio",
+    "developer": "Alan",
+    "description": "Advanced Geometry Dash development, analysis, performance, and version control suite.",
+    "dependencies": [],
+    "settings": {
+        "dark-theme": {
+            "name": "Dark Theme",
+            "description": "Enable Veyron Studio monochromatic dark IDE palette.",
+            "type": "bool",
+            "default": true
+        },
+        "analysis-sensitivity": {
+            "name": "Diagnostic Sensitivity",
+            "description": "Adjust level analyzer heuristic strictness.",
+            "type": "int",
+            "default": 2,
+            "min": 1,
+            "max": 5
+        }
+    }
+}
